@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+	line-height: 1em;
+	font-size: 1em;
+	font-family: monospace;
+	color: #384452;
+}
+
+body.default {
+	background-color: #00b3fe;
+	background-image: url(/images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body.page {
+	background-color: #eee;
+}
+
+div {
+	line-height: 1.7em;
+	font-size: 1.1em;
+}
+
+#map {
+	width: 100%;
+	height: 18em;
+	margin: 0 0 2em 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.alert {
+	width: 100%;
+	margin: 0 0 2em 0;
+	padding: 2em 4%;
+}
+
+.success {
+	@extend .alert;
+	background-color: #dff0d8;
+}
+
+.error {
+	@extend .alert;
+	background-color: #f2dede;
+}

@@ -1,0 +1,75 @@
+@media (min-width: 34em) {}
+
+@media (min-width: 48em) {
+	header nav {
+		position: static;
+	}
+
+	header button {
+		display: none;
+	}
+
+	header ul {
+		position: static;
+		right: auto;
+		display: inline;
+		min-width: 0;
+		font-size: 1em;
+		background-color: transparent;
+		box-shadow: none;
+		overflow: visible;
+	}
+
+	header li a {
+		display: inline;
+		margin: 0;
+		padding: 1em;
+		color: #fff;
+	}
+
+	header li:first-child a {
+		padding: 1em 1em 1em 0;
+	}
+
+	header li:last-child a {
+		padding: 1em 0 1em 1em;
+	}
+
+	header li a:hover {
+		background-color: transparent;
+	}
+
+	section h1 {
+		margin: 4em 0 0 0;
+	}
+
+	footer {
+		text-align: left;
+	}
+
+	footer ul {
+		display: inline;
+	}
+
+	footer ul:first-child {
+		margin: 0;
+	}
+
+	footer ul:last-child {
+		float: right;
+	}
+
+	footer li a {
+		padding: 1em;
+	}
+
+	footer li:first-child a {
+		padding: 1em 1em 1em 0;
+	}
+
+	footer li:last-child a {
+		padding: 1em 0 1em 1em;
+	}
+}
+
+@media (min-width: 76em) {}

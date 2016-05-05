@@ -1,0 +1,78 @@
+header {
+	padding: 1em 4%;
+	line-height: 2em;
+	font-size: 1.2em;
+	background-color: #00b3fe;
+}
+
+header a {
+	color: #fff;
+}
+
+header > a {
+	vertical-align: 0.1em;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: italic;
+}
+
+header nav {
+	float: right;
+	position: relative;
+	display: inline;
+}
+
+header button {
+	width: 2em;
+	height: 2em;
+	margin: 0;
+	padding: 0;
+	border-style: none;
+	background-color: transparent;
+	background-image: url(/images/hamburger.svg);
+	background-position: 0 0;
+	background-size: 2em;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	outline-style: none;
+}
+
+header ul {
+	position: absolute;
+	right: 0;
+	display: none;
+	min-width: 16em;
+	font-size: 0.9em;
+	background-color: #fff;
+	box-shadow: 0.2em 0.2em 0.5em 0 rgba(0,0,0,0.2);
+	overflow: auto;
+	z-index: 1;
+}
+
+header li {
+	display: inline;
+	margin: 0;
+}
+
+header li a {
+	display: block;
+	margin: 0;
+	padding: 0.6em 2em 0.6em 2em;
+	color: #384452;
+}
+
+header li:first-child a {
+	padding: 1.2em 2em 0.6em 2em;
+}
+
+header li:last-child a {
+	padding: 0.6em 2em 1.2em 2em;
+}
+
+header li a:hover {
+	background-color: #eee;
+}
+
+.show {
+	display: block;
+}

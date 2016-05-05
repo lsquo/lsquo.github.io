@@ -1,0 +1,32 @@
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 1em 4%;
+	line-height: 2em;
+	text-align: center;
+	font-size: 1.2em;
+	background-color: #00b3fe;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer ul {
+	display: block;
+}
+
+footer ul:first-child {
+	margin: 0 0 1em 0;
+}
+
+footer li {
+	display: inline;
+	margin: 0;
+}
+
+footer li a {
+	margin: 0;
+	padding: 0.6em;
+}

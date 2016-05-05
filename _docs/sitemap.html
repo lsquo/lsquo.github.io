@@ -1,0 +1,14 @@
+---
+layout: page
+title: Sitemap
+description: This is our sitemap.
+permalink: /sitemap/
+---
+
+<h1>{{ page.title }}</h1>
+<p>Our sitemap isn't huge. We currently have just {{ site.docs | size }} pages.</p>
+<ul>
+	{% for doc in site.docs %}
+	<li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+	{% endfor %}
+</ul>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	{% include head.html %}
+	<body class="{{ page.layout }}">
+		{% include header.html %}
+		<section>
+			{{ content }}
+		</section>
+		{% include footer.html %}
+
+		{% if jekyll.environment == "production" %}
+		{% include tracking.html %}
+		{% endif %}
+	</body>
+</html>

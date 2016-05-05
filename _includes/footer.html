@@ -1,0 +1,21 @@
+<footer>
+	<ul>
+		<li><a href="//plus.google.com/104062836318360970843" target="_blank">Google+</a></li>
+		<li><a href="//linkedin.com/company/lsquo" target="_blank">LinkedIn</a></li>
+		<li><a href="//twitter.com/_lsquo" target="_blank">Twitter</a></li>
+		<li><a href="//facebook.com/lsquo" target="_blank">Facebook</a></li>
+	</ul>
+	<ul>
+		<li><a href="/sitemap/">Sitemap</a></li>
+		<li><a href="/copyright/">&#169; {{ site.time | date: '%Y' }} {{ site.title }}</a></li>
+	</ul>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="{{ "/js/menu.min.js" }}"></script>
+
+{% if page.url == '/contact/' %}
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyChKgEbKWinfzwUH2EWjsbAx_63KvWk9BU&callback=initMap" async defer></script>
+<script src="{{ "/js/map.min.js" }}"></script>
+<script src="{{ "/js/form.min.js" }}"></script>
+{% endif %}

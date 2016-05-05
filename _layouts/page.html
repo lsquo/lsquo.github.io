@@ -1,0 +1,18 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en-GB">
+	{% include head.html %}
+	<body class="{{ page.layout }} {{ page.permalink | remove: "/" }}">
+		{% include header.html %}
+		<article>
+			{{ content }}
+		</article>
+		{% include footer.html %}
+
+		{% if jekyll.environment == "production" %}
+		{% include tracking.html %}
+		{% endif %}
+	</body>
+</html>
