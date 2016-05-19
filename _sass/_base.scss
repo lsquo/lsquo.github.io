@@ -18,9 +18,10 @@ body {
 
 body.default {
 	background-color: #00b3fe;
-	background-image: url(/images/background.jpg);
+	background-image: url(/images/quiet-area.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 0 -6em;
 }
 
 body.page {
