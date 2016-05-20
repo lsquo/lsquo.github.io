@@ -9,12 +9,6 @@ permalink: /contact/
 
 <div id="map"></div>
 
-<address>
-	{{ site.title }}<br>
-	e: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
-	t: <a href="tel:{{ site.tel }}">{{ site.tel }}</a>
-</address>
-
 <form action="//formspree.io/{{ site.email }}" method="post" autocomplete="off">
 	<label>Name <span>*</span><input type="text" name="name" required></label><label>Email <span>*</span><input type="email" name="_replyto" required></label>
 	<label>Company<input type="text" name="company"></label><label>Telephone<input type="tel" name="telephone"></label>
@@ -24,3 +18,16 @@ permalink: /contact/
 	<input type="hidden" name="_format" value="plain">
 	<input type="submit" value="Send">
 </form>
+
+<address>
+	{{ site.title }} Ltd<br>
+	Knowledge Dock<br>
+	4-6 University Way<br>
+	London<br>
+	E16 2RD<br>
+	United Kingdom<br><br>
+	e: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+	t: <a href="tel:{{ site.tel }}">{{ site.tel }}</a>
+</address>
+
+<p>Company number 10170674<br>Registered in England and Wales</p>
