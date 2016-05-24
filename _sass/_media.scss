@@ -69,28 +69,4 @@
 	}
 }
 
-@media (min-width: 76em) {
-	header {
-		padding: 1em 24%;
-	}
-
-	footer {
-		padding: 1em 24%;
-	}
-
-	section > * {
-		padding: 0 24%;
-	}
-
-	article h1 {
-		padding: 0.4em 24%;
-	}
-
-	article > * {
-		padding: 0 24%;
-	}
-
-	.alert {
-		padding: 2em 24%;
-	}
-}
+@media (min-width: 76em) {}
