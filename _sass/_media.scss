@@ -1,72 +1,49 @@
 @media (min-width: 34em) {}
 
-@media (min-width: 48em) {
-	header nav {
-		position: static;
+@media (min-width: 56em) {
+	header {
+		height: 42em;
 	}
 
-	header button {
-		display: none;
+	.alert {
+		padding: 2em 24%;
 	}
 
-	header ul {
-		position: static;
-		right: auto;
+	footer div {
+		margin: 0 0 0 24%;
 		display: inline;
-		min-width: 0;
-		font-size: 1em;
-		background-color: transparent;
-		box-shadow: none;
-		overflow: visible;
-	}
-
-	header li a {
-		display: inline;
-		margin: 0;
-		padding: 1em;
-		color: #fff;
-	}
-
-	header li:first-child a {
-		padding: 1em 1em 1em 0;
-	}
-
-	header li:last-child a {
-		padding: 1em 0 1em 1em;
-	}
-
-	header li a:hover {
-		background-color: transparent;
-	}
-
-	section h1 {
-		margin: 4em 0 0 0;
-	}
-
-	footer {
-		text-align: left;
-	}
-
-	footer ul {
-		display: inline;
-	}
-
-	footer ul:first-child {
 		float: left;
-		margin: 0;
 	}
 
 	footer ul:last-child {
+		margin: 0 24% 0 0;
 		float: right;
 	}
 
-	footer li:first-child a {
-		padding: 1em 1em 1em 0;
+	form {
+		margin: 0 24% 0 24%;
 	}
 
-	footer li:last-child a {
-		padding: 1em 0 1em 1em;
+	section#d ul {
+		margin: 0 24% 1em 0;
+	}
+
+	section#d address {
+		margin: 0 0 0 24%;
+	}
+
+	h1 {
+		margin: 0 24% 0 24%;
+		padding: 3em 0 0 0;
+	}
+
+	h2 {
+		margin: 0 24% 0 24%;
+	}
+
+	p {
+		margin: 0 24% 0 24%;
 	}
 }
 
-@media (min-width: 76em) {}
+@media (min-width: 78em) {}

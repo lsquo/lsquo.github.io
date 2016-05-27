@@ -1,12 +1,52 @@
 section {
-	padding: 0 0 12em 0;
+	margin: 0;
+	padding: 0;
+}
+
+section#a {
+	padding: 3em 0 3em 0;
 	text-align: center;
 }
 
-section h1 {
-	margin: 1em 0 0 0;
+section#a img {
+	height: 5em;
+	width: 5em;
+	display: inline-block;
+	margin: 0 2em 2em 2em;
 }
 
-section > * {
-	padding: 0 4%;
+section#b {
+	background-color: #eee;
+	padding: 3em 0 3em 0;
+}
+
+section#c {
+
+}
+
+section#d {
+	padding: 3em 0 3em 0;
+	background-color: #565656;
+	color: #aaa;
+}
+
+section#d:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+section#d ul {
+	float: right;
+	margin: 0 6% 1em 0;
+}
+
+section#d li {
+	margin: 0 0 0 1em;
+	display: inline;
+}
+
+section#d address {
+	margin: 0 0 0 6%;
+	float: left;
 }

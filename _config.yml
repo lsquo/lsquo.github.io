@@ -4,10 +4,6 @@ email: support@lsquo.com
 url: https://lsquo.com/
 tel: "+447949505765"
 
-collections:
-  docs:
-    output: true
-
 gems:
   - jekyll-sitemap
   - jemoji

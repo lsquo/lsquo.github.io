@@ -4,4 +4,32 @@ title: WordPress development
 description: Lsquo is a digital agency focusing on custom WordPress development.
 ---
 
-<h1>Lsquo is a digital agency focusing on {custom} WordPress development.</h1>
+<section id="a">
+	<img src="/images/smartphone.svg" alt="Smartphone">
+	<img src="/images/tablet.svg" alt="Tablet">
+	<img src="/images/laptop.svg" alt="Laptop">
+	<img src="/images/screen.svg" alt="Monitor">
+	<p>At Lsquo, we have over a decade of professional web experience behind us. Our team of designers deliver accessible websites that look great on mobile and desktop. Our engineering team focus on code and spend most of their time writing plugins and providing tech advice.</p>
+</section>
+<section id="b">
+	<h2>Say hi!</h2>
+	<form action="//formspree.io/{{ site.email }}" method="post" autocomplete="off">
+		<input type="text" name="name" placeholder="Name *" required><input type="email" name="_replyto" placeholder="Email *" required>
+		<textarea name="message" rows="3" placeholder="Message *" required></textarea>
+		<input type="text" name="_gotcha" class="hidden">
+		<input type="hidden" name="_subject" value="{{ site.title }}">
+		<input type="hidden" name="_format" value="plain">
+		<input type="submit" value="Send">
+	</form>
+</section>
+<section id="c">
+	<div id="map"></div>
+</section>
+<section id="d">
+	<address>Lsquo Ltd<br>Knowledge Dock<br>4-6 University Way<br>London<br>E16 2RD</address>
+	<ul>
+		<li><a href="//twitter.com/lsquo" target="_blank"><img src="images/twitter.svg" alt=""></a></li>
+		<li><a href="mailto:support@lsquo.com"><img src="images/mail.svg" alt=""></a></li>
+		<li><a href="tel:+447949505765"><img src="images/phone.svg" alt=""></a></li>
+	</ul>
+</section>

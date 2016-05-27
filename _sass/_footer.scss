@@ -1,32 +1,26 @@
 footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	padding: 1em 4%;
-	line-height: 2em;
-	text-align: center;
-	font-size: 1.2em;
-	background-color: #00b3fe;
+	margin: 0;
+	padding: 1.6em 0;
+	background-color: #363636;
+	color: #aaa;
+}
+
+footer:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer div {
+	margin: 0 0 1em 6%;
+}
+
+footer ul:last-child {
+	margin: 0 0 0 6%;
 }
 
 footer a {
-	color: #fff;
-}
-
-footer ul {
-	display: block;
-}
-
-footer ul:first-child {
-	margin: 0 0 0.7em 0;
-}
-
-footer li {
-	display: inline;
+	color: #aaa;
 	margin: 0;
-}
-
-footer li a {
-	margin: 0;
-	padding: 1em;
+	padding: 0;
 }
