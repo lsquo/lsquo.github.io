@@ -9,17 +9,6 @@
 		padding: 2em 24%;
 	}
 
-	footer div {
-		margin: 0 0 0 24%;
-		display: inline;
-		float: left;
-	}
-
-	footer ul:last-child {
-		margin: 0 24% 0 0;
-		float: right;
-	}
-
 	form {
 		margin: 0 24% 0 24%;
 	}
@@ -29,11 +18,17 @@
 	}
 
 	section#d ul {
-		margin: 0 24% 1em 0;
+		margin: 0 24% 0 0;
+		float: right;
+	}
+
+	section#d li {
+		text-align: right;
 	}
 
 	section#d address {
 		margin: 0 0 0 24%;
+		float: left;
 	}
 
 	h1 {

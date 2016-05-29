@@ -41,16 +41,13 @@ section#d h2 {
 }
 
 section#d ul {
-	float: right;
-	margin: 0 6% 1em 0;
+	margin: 0 0 1em 6%;
 }
 
 section#d li {
-	margin: 0 0 0 1em;
-	display: inline;
+	display: block;
 }
 
 section#d address {
-	margin: 0 0 0 6%;
-	float: left;
+	margin: 0 0 1em 6%;
 }

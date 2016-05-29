@@ -3,21 +3,7 @@ footer {
 	padding: 1em 0;
 	background-color: #464646;
 	color: #aaa;
-	font-size: 90%;
-}
-
-footer:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-footer div {
-	margin: 0 6% 1em 6%;
-}
-
-footer ul:last-child {
-	margin: 0 6% 0 6%;
+	text-align: center;
 }
 
 footer a {
