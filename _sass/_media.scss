@@ -5,6 +5,14 @@
 		height: 42em;
 	}
 
+	footer ul {
+		margin: 0 24% 0 24%;
+	}
+
+	footer li:last-child {
+		display: inline;
+	}
+
 	.alert {
 		padding: 2em 24%;
 	}

@@ -1,13 +1,27 @@
 footer {
 	margin: 0;
-	padding: 1em 0;
+	padding: 0.8em 0;
 	background-color: #464646;
 	color: #aaa;
 	text-align: center;
+}
+
+footer ul {
+	margin: 0 6% 0 6%;
+}
+
+footer li {
+	margin: 0 1em;
+	line-height: 2em;
+}
+
+footer li:last-child {
+	display: block;
 }
 
 footer a {
 	color: #aaa;
 	margin: 0;
 	padding: 0;
+	white-space: nowrap;
 }
