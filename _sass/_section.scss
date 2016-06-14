@@ -29,33 +29,29 @@ section {
 }
 
 #c {
-
-}
-
-#d {
 	padding: 3em 0 3em 0;
 	background-color: #565656;
 	color: #aaa;
 }
 
-#d:after {
+#c:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-#d h2 {
+#c h2 {
 	margin: 0 0 0 6%;
 }
 
-#d ul {
+#c ul {
 	margin: 0 0 1em 6%;
 }
 
-#d li {
+#c li {
 	display: block;
 }
 
-#d address {
+#c address {
 	margin: 0 0 1em 6%;
 }
