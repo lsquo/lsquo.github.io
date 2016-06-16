@@ -29,39 +29,12 @@ section {
 }
 
 #c {
-	background-color: #eee;
-	padding: 0 0 2em 0;
+	padding: 3em 0 3em 0;
+	background-color: #565656;
+	color: #aaa;
 	text-align: center;
 }
 
 #c img {
-	margin: 0 1em 1em 1em;
-}
-
-#d {
-	padding: 3em 0 3em 0;
-	background-color: #565656;
-	color: #aaa;
-}
-
-#d:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-#d h2 {
-	margin: 0 0 0 6%;
-}
-
-#d ul {
-	margin: 0 0 1em 6%;
-}
-
-#d li {
-	display: block;
-}
-
-#d address {
-	margin: 0 0 1em 6%;
+	margin: 0 1em 2em 1em;
 }
