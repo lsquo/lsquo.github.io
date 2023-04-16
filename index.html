@@ -15,12 +15,9 @@ description: Lsquo is a digital agency focusing on custom WordPress design and d
 <section id="b">
 	<h2>Say hi!</h2>
 	<p>Get in touch if you need our help with an idea or project.</p>
-	<form action="//formspree.io/{{ site.email }}" method="post" autocomplete="off">
-		<input type="text" name="name" placeholder="Name *" required><input type="email" name="_replyto" placeholder="Email *" required>
-		<textarea name="message" rows="3" placeholder="Message *" required></textarea>
-		<input type="text" name="_gotcha" class="hidden">
-		<input type="hidden" name="_subject" value="{{ site.title }}">
-		<input type="hidden" name="_format" value="plain">
+	<form action="https://formspree.io/f/mvonvydw" method="post" autocomplete="off" id="form">
+		<input type="text" name="name" placeholder="Name *"><input type="email" name="email" placeholder="Email *">
+		<textarea name="message" rows="3" placeholder="Message *"></textarea>
 		<input type="submit" value="Send">
 	</form>
 </section>

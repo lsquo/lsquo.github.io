@@ -49,20 +49,3 @@ img {
 .hidden {
 	display: none;
 }
-
-.alert {
-	margin: 1em 0 0 0;
-	padding: 2em 6%;
-	width: 100%;
-	text-align: center;
-}
-
-.success {
-	@extend .alert;
-	background-color: #dff0d8;
-}
-
-.error {
-	@extend .alert;
-	background-color: #f2dede;
-}
