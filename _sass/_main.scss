@@ -68,6 +68,9 @@ header img {
   display: inline-block;
   width: 50%;
 }
+#b input[type="text"]:focus {
+  border-right-color: black;
+}
 #b input[type="email"] {
   border-left-style: none;
   display: inline-block;
