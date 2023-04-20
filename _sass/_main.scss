@@ -73,6 +73,9 @@ header img {
   display: inline-block;
   width: 50%;
 }
+#b input[type="submit"] {
+  display: block;
+}
 #b textarea {
   width: 100%;
 }
