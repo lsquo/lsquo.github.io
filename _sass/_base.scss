@@ -305,13 +305,11 @@ input[type="email"] {
   width: 100%;
 }
 input[type="email"]:focus {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  outline-color: black;
-  outline-style: dashed;
-  outline-width: thin;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  outline-style: none;
 }
 input[type="file"] {}
 input[type="file"]::file-selector-button {
@@ -374,13 +372,11 @@ input[type="number"] {
   width: 100%;
 }
 input[type="number"]:focus {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  outline-color: black;
-  outline-style: dashed;
-  outline-width: thin;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  outline-style: none;
 }
 input[type="password"] {
   box-sizing: border-box;
@@ -410,13 +406,11 @@ input[type="password"] {
   width: 100%;
 }
 input[type="password"]:focus {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  outline-color: black;
-  outline-style: dashed;
-  outline-width: thin;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  outline-style: none;
 }
 input[type="radio"] {
   accent-color: black;
@@ -484,13 +478,11 @@ input[type="search"] {
   width: 100%;
 }
 input[type="search"]:focus {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  outline-color: black;
-  outline-style: dashed;
-  outline-width: thin;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  outline-style: none;
 }
 input[type="submit"] {
   border-bottom-color: black;
@@ -544,13 +536,11 @@ input[type="tel"] {
   width: 100%;
 }
 input[type="tel"]:focus {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  outline-color: black;
-  outline-style: dashed;
-  outline-width: thin;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  outline-style: none;
 }
 input[type="text"] {
   box-sizing: border-box;
@@ -580,13 +570,11 @@ input[type="text"] {
   width: 100%;
 }
 input[type="text"]:focus {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  outline-color: black;
-  outline-style: dashed;
-  outline-width: thin;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  outline-style: none;
 }
 input[type="time"] {}
 input[type="url"] {
@@ -617,13 +605,11 @@ input[type="url"] {
   width: 100%;
 }
 input[type="url"]:focus {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  outline-color: black;
-  outline-style: dashed;
-  outline-width: thin;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  outline-style: none;
 }
 input[type="week"] {}
 ins {}
@@ -781,13 +767,11 @@ textarea {
   padding-top: 0;
 }
 textarea:focus {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  outline-color: black;
-  outline-style: dashed;
-  outline-width: thin;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  outline-style: none;
 }
 tfoot {}
 th {

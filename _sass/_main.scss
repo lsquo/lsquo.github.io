@@ -64,22 +64,32 @@ header img {
 	padding-top: 2rem;
 	text-align: center;
 }
+#b form {
+  font-size: 0;
+}
 #b input[type="text"] {
   display: inline-block;
+  margin-bottom: 0;
   width: 50%;
 }
 #b input[type="text"]:focus {
-  border-right-color: black;
+  border-bottom-style: solid;
+  border-right-style: solid;
+}
+#b input[type="email"]:focus {
+  border-bottom-style: solid;
 }
 #b input[type="email"] {
   border-left-style: none;
   display: inline-block;
+  margin-bottom: 0;
   width: 50%;
 }
 #b input[type="submit"] {
   display: block;
 }
 #b textarea {
+  border-top-style: none;
   width: 100%;
 }
 #c {
