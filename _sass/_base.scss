@@ -50,7 +50,7 @@ button {
   border-left-width: thin;
   border-right-width: thin;
   border-top-width: thin;
-  font-family: serif;
+  font-family: inherit;
   font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
@@ -236,10 +236,7 @@ img {
   display: block;
   max-width: 100%;
 }
-input {
-  font-family: serif;
-  font-size: medium;
-}
+input {}
 input[type="button"] {
   border-bottom-color: black;
   border-left-color: black;
@@ -253,6 +250,8 @@ input[type="button"] {
   border-left-width: thin;
   border-right-width: thin;
   border-top-width: thin;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -265,6 +264,8 @@ input[type="button"] {
 input[type="checkbox"] {
   accent-color: black;
   display: inline-block;
+  font-family: inherit;
+  font-size: medium;
   height: 1.25rem;
   margin-bottom: 2rem;
   margin-left: 0;
@@ -291,6 +292,8 @@ input[type="email"] {
   border-right-width: thin;
   border-top-width: thin;
   display: block;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -324,7 +327,7 @@ input[type="file"]::file-selector-button {
   border-left-width: thin;
   border-right-width: thin;
   border-top-width: thin;
-  font-family: serif;
+  font-family: inherit;
   font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
@@ -358,6 +361,8 @@ input[type="number"] {
   border-right-width: thin;
   border-top-width: thin;
   display: block;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -392,6 +397,8 @@ input[type="password"] {
   border-right-width: thin;
   border-top-width: thin;
   display: block;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -414,6 +421,8 @@ input[type="password"]:focus {
 input[type="radio"] {
   accent-color: black;
   display: inline-block;
+  font-family: inherit;
+  font-size: medium;
   height: 1.25rem;
   margin-bottom: 2rem;
   margin-left: 0;
@@ -436,6 +445,8 @@ input[type="reset"] {
   border-left-width: thin;
   border-right-width: thin;
   border-top-width: thin;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -460,6 +471,8 @@ input[type="search"] {
   border-right-width: thin;
   border-top-width: thin;
   display: block;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -492,6 +505,8 @@ input[type="submit"] {
   border-left-width: thin;
   border-right-width: thin;
   border-top-width: thin;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -516,6 +531,8 @@ input[type="tel"] {
   border-right-width: thin;
   border-top-width: thin;
   display: block;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -550,6 +567,8 @@ input[type="text"] {
   border-right-width: thin;
   border-top-width: thin;
   display: block;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -585,6 +604,8 @@ input[type="url"] {
   border-right-width: thin;
   border-top-width: thin;
   display: block;
+  font-family: inherit;
+  font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -748,7 +769,7 @@ textarea {
   border-right-width: thin;
   border-top-width: thin;
   display: block;
-  font-family: serif;
+  font-family: inherit;
   font-size: medium;
   margin-bottom: 2rem;
   margin-left: 0;
