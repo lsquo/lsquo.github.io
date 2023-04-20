@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+header {
+  background-image: url("/images/knowledge-dock.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+header h1 {
+  color: #ffffff;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+header img {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+#a {
+  background-color: #ffffff;
+  padding-top: 2rem;
+	text-align: center;
+}
+#a img {
+  display: inline-block;
+  height: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 5rem;
+}
+#a p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#b {
+	background-color: #eeeeee;
+	padding-top: 2rem;
+	text-align: center;
+}
+#b form {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#b input[type="text"] {
+  display: inline-block;
+  width: 50%;
+}
+#b input[type="email"] {
+  border-left-style: none;
+  display: inline-block;
+  width: 50%;
+}
+#b textarea {
+  width: 100%;
+}
+#c {
+	background-color: #ffffff;
+	text-align: center;
+}
+#c #map {
+  height: 20rem;
+	width: 100%;
+}
+#d {
+  background-color: #565656;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+#d a {
+  color: #aaaaaa;
+}
+#d p {
+  color: #aaaaaa;
+  margin-bottom: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#d img {
+  display: inline-block;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  width: 2.5rem;
+}
+footer {
+	background-color: #464646;
+	text-align: center;
+}
+footer p {
+  color: #aaaaaa;
+  margin-bottom: 0;
+}
