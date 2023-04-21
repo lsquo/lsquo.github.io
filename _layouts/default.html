@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-	{% include head.html %}
-	<body class="{{ page.layout }}">
-		{% include header.html %}
+  <head>
+	  {% include head.html %}
+	</head>
+	<body>
+	  <header>
+		  {% include header.html %}
+		</header>
 		{{ content }}
-		{% include footer.html %}
-
+		<footer>
+		  {% include footer.html %}
+		</footer>
 		{% if jekyll.environment == "production" %}
-		{% include tracking.html %}
+		  {% include tracking.html %}
 		{% endif %}
 	</body>
 </html>
