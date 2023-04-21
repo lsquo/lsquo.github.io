@@ -5,38 +5,22 @@ body {
   font-family: 'Noto Serif', serif;
   line-height: 1.75;
 }
-h1 {
-  color: #ffffff;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-h2 {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-p {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-form {
-  margin-left: 5%;
-  margin-right: 5%;
-}
 header {
   background-image: url("/images/knowledge-dock.jpg");
   background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 2rem;
   text-align: center;
+}
+header h1 {
+  color: #ffffff;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 header img {
   display: inline-block;
@@ -47,6 +31,8 @@ header img {
 #a {
   background-color: #ffffff;
   overflow: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 2rem;
 	text-align: center;
 }
@@ -58,40 +44,48 @@ header img {
   margin-right: 2rem;
   width: 5rem;
 }
+#a h2 {
+  color: #000000;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
 #b {
 	background-color: #eeeeee;
 	overflow: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 	padding-top: 2rem;
 	text-align: center;
 }
-#b form {
-  font-size: 0;
+#b h2 {
+  color: #000000;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 #b input[type="text"] {
+  border-right-style: none;
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   width: 50%;
-}
-#b input[type="text"]:focus {
-  border-bottom-style: solid;
-  border-right-style: solid;
-}
-#b input[type="email"]:focus {
-  border-bottom-style: solid;
 }
 #b input[type="email"] {
-  border-left-style: none;
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   width: 50%;
+}
+#b input[type="email"]:focus {
+  border-left-style: solid;
+}
+#b textarea {
+  margin-bottom: 1rem;
+  width: 100%;
 }
 #b input[type="submit"] {
   display: block;
-}
-#b textarea {
-  border-top-style: none;
-  margin-bottom: 1rem;
-  width: 100%;
 }
 #c {
 	background-color: #ffffff;
@@ -105,6 +99,8 @@ header img {
 #d {
   background-color: #565656;
   overflow: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 	padding-top: 2rem;
 	text-align: center;
 }
@@ -120,12 +116,13 @@ header img {
   margin-bottom: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  margin-top: 0;
   width: 2.5rem;
 }
 footer {
 	background-color: #464646;
 	overflow: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 	padding-top: 2rem;
 	text-align: center;
 }
@@ -134,10 +131,13 @@ footer p {
 }
 
 @media (min-width: 480px) {
-  h1 {
-    font-size: 3.25rem;
+  header h1 {
+    font-size: 3rem;
   }
-  h2 {
-    font-size: 2.75rem;
+  #a h2 {
+    font-size: 2.5rem;
+  }
+  #b h2 {
+    font-size: 2.5rem;
   }
 }
