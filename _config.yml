@@ -3,6 +3,6 @@ repository: lsquo/lsquo.github.io
 url: https://lsquo.com/
 tel: "+442081236026"
 
-gems:
+plugins:
   - jekyll-sitemap
   - jemoji
