@@ -231,7 +231,9 @@ hr {
 }
 html {}
 i {}
-iframe {}
+iframe {
+  display: block;
+}
 img {
   display: block;
   max-width: 100%;
