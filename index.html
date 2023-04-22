@@ -24,7 +24,7 @@ title: Lsquo is a digital agency focused on custom theme design and plugin devel
   </form>
 </section>
 <section>
-  <iframe referrerpolicy="no-referrer-when-downgrade" src="https://{{ site.data.parameters.maps_embed_api.host }}{{ site.data.parameters.maps_embed_api.resource }}?key={{ site.data.keys.maps_embed_api }}&center={{ site.data.parameters.maps_embed_api.latitude }},{{ site.data.parameters.maps_embed_api.longitude }}&zoom={{ site.data.parameters.maps_embed_api.zoom }}"></iframe>
+  <iframe referrerpolicy="no-referrer-when-downgrade" src="https://{{ site.data.parameters.maps_embed_api.host }}{{ site.data.parameters.maps_embed_api.resource }}?key={{ site.data.keys.maps_embed_api }}&center={{ site.data.parameters.maps_embed_api.center.latitude }},{{ site.data.parameters.maps_embed_api.center.longitude }}&zoom={{ site.data.parameters.maps_embed_api.zoom }}"></iframe>
 </section>
 <section>
   {% for link in site.data.links %}
