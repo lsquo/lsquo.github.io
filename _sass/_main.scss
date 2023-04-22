@@ -21,14 +21,9 @@ header h1 {
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.5;
+  margin-bottom: 25rem;
 }
-header img {
-  display: inline-block;
-  height: 2.5rem;
-  margin-bottom: 20rem;
-  width: 2.5rem;
-}
-#a {
+section:nth-of-type(1) {
   background-color: #ffffff;
   overflow: auto;
   padding-left: 2rem;
@@ -36,7 +31,7 @@ header img {
   padding-top: 2rem;
 	text-align: center;
 }
-#a img {
+section:nth-of-type(1) img {
   display: inline-block;
   height: 5rem;
   margin-bottom: 2rem;
@@ -44,14 +39,14 @@ header img {
   margin-right: 2rem;
   width: 5rem;
 }
-#a h2 {
+section:nth-of-type(1) h2 {
   color: #000000;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
 }
-#b {
+section:nth-of-type(2) {
 	background-color: #eeeeee;
 	overflow: auto;
   padding-left: 2rem;
@@ -59,44 +54,44 @@ header img {
 	padding-top: 2rem;
 	text-align: center;
 }
-#b h2 {
+section:nth-of-type(2) h2 {
   color: #000000;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
 }
-#b input[type="text"] {
+section:nth-of-type(2) input[type="text"] {
   border-right-style: none;
   display: inline-block;
   margin-bottom: 1rem;
   width: 50%;
 }
-#b input[type="email"] {
+section:nth-of-type(2) input[type="email"] {
   display: inline-block;
   margin-bottom: 1rem;
   width: 50%;
 }
-#b input[type="email"]:focus {
+section:nth-of-type(2) input[type="email"]:focus {
   border-left-style: solid;
 }
-#b textarea {
+section:nth-of-type(2) textarea {
   margin-bottom: 1rem;
   width: 100%;
 }
-#b input[type="submit"] {
+section:nth-of-type(2) input[type="submit"] {
   display: block;
 }
-#c {
+section:nth-of-type(3) {
 	background-color: #ffffff;
 	overflow: auto;
 	text-align: center;
 }
-#c iframe {
+section:nth-of-type(3) iframe {
   height: 25rem;
   width: 100%;
 }
-#d {
+section:nth-of-type(4) {
   background-color: #565656;
   overflow: auto;
   padding-left: 2rem;
@@ -104,13 +99,13 @@ header img {
 	padding-top: 2rem;
 	text-align: center;
 }
-#d a {
+section:nth-of-type(4) a {
   color: #aaaaaa;
 }
-#d p {
+section:nth-of-type(4) p {
   color: #aaaaaa;
 }
-#d img {
+section:nth-of-type(4) img {
   display: inline-block;
   height: 2.5rem;
   margin-bottom: 2rem;
@@ -134,10 +129,10 @@ footer p {
   header h1 {
     font-size: 3rem;
   }
-  #a h2 {
+  section:nth-of-type(1) h2 {
     font-size: 2.5rem;
   }
-  #b h2 {
+  section:nth-of-type(2) h2 {
     font-size: 2.5rem;
   }
 }

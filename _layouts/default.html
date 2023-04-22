@@ -4,13 +4,7 @@
 	  {% include head.html %}
 	</head>
 	<body>
-	  <header>
-		  {% include header.html %}
-		</header>
 		{{ content }}
-		<footer>
-		  {% include footer.html %}
-		</footer>
 		{% if jekyll.environment == "production" %}
 		  {% include tracking.html %}
 		{% endif %}

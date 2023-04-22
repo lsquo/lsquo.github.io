@@ -1,8 +1,5 @@
-title: Lsquo
 repository: lsquo/lsquo.github.io
 url: https://lsquo.com
-tel: "+442081236026"
-
 plugins:
   - jekyll-sitemap
   - jemoji

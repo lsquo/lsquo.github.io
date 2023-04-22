@@ -1,0 +1,8 @@
+- alt: Phone
+  src: /assets/images/phone.svg
+- alt: Tablet
+  src: /assets/images/tablet.svg
+- alt: Laptop
+  src: /assets/images/laptop.svg
+- alt: Desktop
+  src: /assets/images/desktop.svg

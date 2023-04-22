@@ -1,31 +1,37 @@
 ---
 layout: default
-title: WordPress theme design and plugin development
-description: Lsquo is a digital agency focused on custom theme design and plugin development for WordPress.
+title: Lsquo is a digital agency focused on custom theme design and plugin development for WordPress
 ---
 
-<section id="a">
-	<img src="/assets/images/phone.svg" alt="Phone">
-	<img src="/assets/images/tablet.svg" alt="Tablet">
-	<img src="/assets/images/laptop.svg" alt="Laptop">
-	<img src="/assets/images/desktop.svg" alt="Desktop">
+<header>
+  <h1>{{ page.title }}</h1>
+</header>
+<section>
+  {% for icon in site.data.icons %}
+    <img src="{{ icon.src }}" alt="{{ icon.name }}">
+  {% endfor %}
 	<h2>What do we do?</h2>
 	<p>At Lsquo we are ready to help with your next WordPress project. The themes we design make your website look great on both mobile and desktop and the plugins we build are fast and functional. Training and support can be provided.</p>
 </section>
-<section id="b">
+<section>
 	<h2>Say hi!</h2>
 	<p>Get in touch if you need our help with an idea or project.</p>
-	<form action="https://formspree.io/f/mvonvydw" method="post" autocomplete="off" id="form">
-		<input type="text" name="name" placeholder="Name *" required><input type="email" name="email" placeholder="Email *" required>
-		<textarea name="message" rows="3" placeholder="Message *" required></textarea>
-		<input type="submit" value="Send">
-	</form>
+  <form action="{{ site.data.parameters.formspree.action }}" method="{{ site.data.parameters.formspree.method }}" autocomplete="off" id="form">
+    <input type="text" name="name" placeholder="Name *" required>
+    <input type="email" name="email" placeholder="Email *" required>
+    <textarea name="message" rows="5" placeholder="Message *" required></textarea>
+    <input type="submit" value="Send">
+  </form>
 </section>
-<section id="c">
-  <iframe frameborder="0" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyB33s58mAqQaQNklPAu92stZusozwxI37w&center=51.507584,0.062660&zoom=12"></iframe>
+<section>
+  <iframe referrerpolicy="no-referrer-when-downgrade" src="https://{{ site.data.parameters.maps_embed_api.host }}{{ site.data.parameters.maps_embed_api.resource }}?key={{ site.data.keys.maps_embed_api }}&center={{ site.data.parameters.maps_embed_api.latitude }},{{ site.data.parameters.maps_embed_api.longitude }}&zoom={{ site.data.parameters.maps_embed_api.zoom }}"></iframe>
 </section>
-<section id="d">
-	<a href="https//instagram.com/lsquo" target="_blank"><img src="/assets/images/instagram.svg" alt="Instagram"></a>
-	<a href="https//twitter.com/lsquo" target="_blank"><img src="/assets/images/twitter.svg" alt="Twitter"></a>
-	<p>Lsquo Ltd is registered in England and Wales under company number 10170674. The registered address is Lsquo Ltd, Knowledge Dock, 4 University Way, London, E16 2RD, United Kingdom.</p>
+<section>
+  {% for link in site.data.links %}
+    <a href="{{ link.href }}" target="_blank"><img src="{{ link.src }}" alt="{{ link.alt }}"></a>
+  {% endfor %}
+	<p>{{ site.data.entity.title }} is registered in England and Wales under company number {{ site.data.entity.number }}. The registered address is {{ site.data.entity.title }}, {{ site.data.entity.address }}.</p>
 </section>
+<footer>
+  <p>&copy; {{ site.time | date: '%Y' }} {{ site.data.entity.title }}</p>
+</footer>
