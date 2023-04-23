@@ -40,15 +40,8 @@ section:nth-of-type(1) img {
   margin-right: 2rem;
   width: 5rem;
 }
-section:nth-of-type(1) h2 {
-  color: #000000;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
 section:nth-of-type(2) {
-  background-color: #eeeeee;
+  background-color: #dddddd;
   overflow: auto;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -62,39 +55,73 @@ section:nth-of-type(2) h2 {
   font-weight: 400;
   line-height: 1.5;
 }
-section:nth-of-type(2) input[type="text"] {
-  border-right-style: none;
-  display: inline-block;
-  margin-bottom: 1rem;
-  width: 50%;
-}
-section:nth-of-type(2) input[type="email"] {
-  display: inline-block;
-  margin-bottom: 1rem;
-  width: 50%;
-}
-section:nth-of-type(2) input[type="email"]:focus {
-  border-left-style: solid;
-}
-section:nth-of-type(2) textarea {
-  margin-bottom: 1rem;
-  width: 100%;
-}
-section:nth-of-type(2) input[type="submit"] {
-  display: block;
-}
 section:nth-of-type(3) {
-  background-color: #ffffff;
+  background-color: #eeeeee;
   overflow: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
   text-align: center;
 }
-section:nth-of-type(3) iframe {
-  border-bottom-style: none;
-  border-left-style: none;
+section:nth-of-type(3) h2 {
+  color: #000000;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+section:nth-of-type(3) input[type="text"] {
+  border-bottom-color: gray;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-top-color: gray;
   border-right-style: none;
-  border-top-style: none;
-  height: 25rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  width: 50%;
+}
+section:nth-of-type(3) input[type="email"] {
+  border-bottom-color: gray;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-top-color: gray;
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  width: 50%;
+}
+section:nth-of-type(3) input[type="email"]:focus {
+  border-left-style: solid;
+}
+section:nth-of-type(3) textarea {
+  border-bottom-color: gray;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-top-color: gray;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
   width: 100%;
+}
+section:nth-of-type(3) input[type="submit"] {
+  border-bottom-color: gray;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-top-color: gray;
+  display: block;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
 }
 section:nth-of-type(4) {
   background-color: #565656;
@@ -134,10 +161,26 @@ footer p {
   header h1 {
     font-size: 3rem;
   }
-  section:nth-of-type(1) h2 {
-    font-size: 2.5rem;
+  section:nth-of-type(1) {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  section:nth-of-type(2) {
+    padding-left: 15%;
+    padding-right: 15%;
   }
   section:nth-of-type(2) h2 {
     font-size: 2.5rem;
+  }
+  section:nth-of-type(3) {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  section:nth-of-type(3) h2 {
+    font-size: 2.5rem;
+  }
+  section:nth-of-type(4) {
+    padding-left: 15%;
+    padding-right: 15%;
   }
 }

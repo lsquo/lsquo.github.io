@@ -10,6 +10,8 @@ title: Lsquo is a digital agency focused on custom theme design and plugin devel
   {% for icon in site.data.icons %}
     <img src="{{ icon.src }}" alt="{{ icon.name }}">
   {% endfor %}
+</section>
+<section>
   <h2>What do we do?</h2>
   <p>At Lsquo we are ready to help with your next WordPress project. The themes we design make your website look great on both mobile and desktop and the plugins we build are fast and functional. Training and support can be provided.</p>
 </section>
@@ -17,11 +19,8 @@ title: Lsquo is a digital agency focused on custom theme design and plugin devel
   <h2>Say hi!</h2>
   <p>Get in touch if you need our help with an idea or project.</p>
   <form action="{{ site.data.parameters.formspree.action }}" method="{{ site.data.parameters.formspree.method }}" autocomplete="off" id="form">
-    <input type="text" name="name" placeholder="Name *" required><input type="email" name="email" placeholder="Email *" required><textarea name="message" rows="5" placeholder="Message *" required></textarea><input type="submit" value="Send">
+    <input type="text" name="name" placeholder="Name" required><input type="email" name="email" placeholder="Email" required><textarea name="message" rows="1" placeholder="Message" required></textarea><input type="submit" value="Send">
   </form>
-</section>
-<section>
-  <iframe referrerpolicy="no-referrer-when-downgrade" src="https://{{ site.data.parameters.maps_embed_api.host }}{{ site.data.parameters.maps_embed_api.resource }}?key={{ site.data.keys.maps_embed_api }}&center={{ site.data.parameters.maps_embed_api.center.latitude }},{{ site.data.parameters.maps_embed_api.center.longitude }}&zoom={{ site.data.parameters.maps_embed_api.zoom }}"></iframe>
 </section>
 <section>
   {% for link in site.data.links %}
