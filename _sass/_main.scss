@@ -78,10 +78,10 @@ section:nth-of-type(3) input[type="text"] {
   border-right-style: none;
   display: inline-block;
   margin-bottom: 1rem;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 0.25rem;
+  padding-top: 0.5rem;
   width: 50%;
 }
 section:nth-of-type(3) input[type="email"] {
@@ -91,10 +91,10 @@ section:nth-of-type(3) input[type="email"] {
   border-top-color: gray;
   display: inline-block;
   margin-bottom: 1rem;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 0.25rem;
+  padding-top: 0.5rem;
   width: 50%;
 }
 section:nth-of-type(3) input[type="email"]:focus {
@@ -106,10 +106,10 @@ section:nth-of-type(3) textarea {
   border-right-color: gray;
   border-top-color: gray;
   margin-bottom: 1rem;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 0.25rem;
+  padding-top: 0.5rem;
   width: 100%;
 }
 section:nth-of-type(3) input[type="submit"] {
@@ -118,10 +118,10 @@ section:nth-of-type(3) input[type="submit"] {
   border-right-color: gray;
   border-top-color: gray;
   display: block;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 0.25rem;
+  padding-top: 0.5rem;
 }
 section:nth-of-type(4) {
   background-color: #565656;
